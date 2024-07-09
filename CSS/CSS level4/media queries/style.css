@@ -1,0 +1,25 @@
+#mydiv{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+}
+@media(max-width:300px){
+    #mydiv{
+        background-color: green;
+    }
+}
+@media(min-width:400px) and (max-width:600px){
+    #mydiv{
+        background-color: red;
+    }
+}
+@media(min-width:300px) and (max-width:400px){
+    #mydiv{
+        background-color: pink;
+    }
+}
+@media(min-width:600px){
+    #mydiv{
+        background-color: blue;
+    } 
+}

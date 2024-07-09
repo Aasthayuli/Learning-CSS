@@ -1,0 +1,8 @@
+/* .heading{
+    color: red;
+}
+This could be a way but there is also an another way. */
+
+h1,h2,h3{
+    color:red;
+}

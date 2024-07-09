@@ -1,0 +1,16 @@
+#loader{
+    border: 7px solid blue;
+    border-left: 7px solid rgb(151, 151, 193);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    animation: myanimation 2s linear 1s infinite;
+}
+@keyframes myanimation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

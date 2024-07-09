@@ -1,0 +1,112 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#box1{
+    height: 20px;
+    width: 100px;
+    display: inline-block;
+    background-color: aqua;
+}
+#box2{
+    height: 70px;
+    width: 100px;
+    display: inline-block;
+    background-color: palevioletred;
+    /* align-self: center; */
+}
+#box3{
+    height: 30px;
+    width: 100px;
+    display: inline-block;
+    background-color: burlywood;
+}
+#box4{
+    height: 20px;
+    width: 100px;
+    display: inline-block;
+    background-color: brown;
+}
+#box5{
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    background-color: yellowgreen;
+}
+#container1{
+    width: 1000px;
+    height: 200px;
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: row; /*default value:left to right*/
+}
+#container2{
+    width: 1000px;
+    height: 200px;
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: row-reverse; /*right to left*/
+}
+#container3{
+    width: 1000px;
+    height: 200px;
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: column; /*top to bottom*/
+    /* justify-content: space-around;*/                     /*(try with others) */
+} 
+#container4{
+    width: 1000px;
+    height: 200px;
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: column-reverse; /*bottom to top*/
+}
+#container5{
+    width: 1000px;
+    height: 200px;
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: row; /*default value:left to right*/
+    justify-content: center; /*default value is flex-start*/
+}
+#container6{
+    width: 1000px;
+    height: 200px;
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: row; /*default value:left to right*/
+    justify-content: flex-end;
+}
+#container7{
+    width: 400px;
+    height: 200px;
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: row; /*default value:left to right*/
+    justify-content: center;/*default value is flex-start*/
+    flex-wrap:wrap;
+    /* align-items:flex-start;
+    align-content:center; */
+}
+#container8{
+    width: 1000px;
+    height: 200px;
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: row; /*default value:left to right*/
+    justify-content: space-evenly;
+}
+#container9{
+    width: 1000px;
+    height: 200px;
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: row; /*default value:left to right*/
+    justify-content: space-between;/*default value is flex-start*/
+}

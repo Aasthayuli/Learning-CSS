@@ -1,0 +1,69 @@
+
+.mydiv{
+    background-color: pink;
+    height: 100px;
+    width:100px;
+    border: 2px double brown;   /*shorthand*/
+
+    /* border-width: 5px;
+    border-style: double;
+    border-color: brown; */
+
+    border-radius: 5px;
+
+    /*border-radius: 50%;  makes circle ,if equal height and width given.*/
+    /* text-align: right; */
+    /*text-align sets the text in the space provided by height and width.*/
+
+    padding:20px 25px 20px 25px;
+    /* padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px; 
+    ->padding: 25px;sets padding from all sides is same of 25px
+    ->top|right|bottom|left(clockwise)
+    ->padding provides the gap between content of the block and the       border of the block.
+    It is inside the block.*/
+
+    margin: 25px;
+    /*Margin also works in the same way 
+    (top->right->bottom->left)
+    margin provides the gap between two blocks.
+    It is outside of the block.*/
+}
+
+.Display1{
+    width:100px;
+    height:100px;
+    margin: 25px;
+    padding: 25px;
+    background-color: red;
+    display: inline-block; 
+/* due to this inline property,can't set width and height for the text element & top and bottom margin for this element.*/
+}
+.Display2{
+    width: 100px;
+    height:100px;
+    margin: 25px;
+    padding: 25px;
+    background-color: yellow;
+    display: none;
+}
+.Display3{
+    width:100px;
+    height:100px;
+    margin: 25px;
+    padding: 25px;
+    background-color: green;
+    display: inline-block;
+}
+
+.Display22{
+    width: 100px;
+    height:100px;
+    margin: 25px;
+    padding: 25px;
+    background-color: yellow;
+    display: inline-block;
+    visibility: hidden;               
+}

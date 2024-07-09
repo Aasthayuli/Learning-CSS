@@ -1,0 +1,117 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container1{
+    width: 600px;
+    height: 300px;
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#container2{
+    width: 600px;
+    height: 300px;
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#box1{
+    display: inline-block;
+    background-color: aqua;
+}
+#box2{
+    height:150px;
+    display: inline-block;
+    background-color: palevioletred;
+    flex-shrink: 2;
+}
+#box3{
+    /* height: 100px; */
+    display: inline-block;
+    background-color: burlywood;
+}
+#box4{
+    display: inline-block;
+    background-color: brown;
+}
+#box5{
+    display: inline-block;
+    background-color: yellowgreen;
+}
+#box6{
+    display: inline-block;
+    background-color: aqua;
+}
+#box7{
+    height:150px;
+    display: inline-block;
+    background-color: palevioletred;
+    flex-shrink: 0.5;
+}
+#box8{
+    /* height: 100px; */
+    display: inline-block;
+    background-color: burlywood;
+}
+#box9{
+    display: inline-block;
+    background-color: brown;
+}
+#box10{
+    display: inline-block;
+    background-color: yellowgreen;
+}
+#box11{
+    display: inline-block;
+    background-color: aqua;
+}
+#box12{
+    height:150px;
+    display: inline-block;
+    background-color: palevioletred;
+    flex-grow: 2;
+}
+#box13{
+    /* height: 100px; */
+    display: inline-block;
+    background-color: burlywood;
+}
+#box14{
+    display: inline-block;
+    background-color: brown;
+}
+#box15{
+    display: inline-block;
+    background-color: yellowgreen;
+}
+#box16{
+    display: inline-block;
+    background-color: aqua;
+}
+#box17{
+    height:150px;
+    display: inline-block;
+    background-color: palevioletred;
+    flex-grow: 0.5;
+}
+#box18{
+    /* height: 100px; */
+    display: inline-block;
+    background-color: burlywood;
+}
+#box19{
+    display: inline-block;
+    background-color: brown;
+}
+#box20{
+    display: inline-block;
+    background-color: yellowgreen;
+}

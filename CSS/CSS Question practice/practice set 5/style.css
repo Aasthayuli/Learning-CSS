@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    font-size: 100px;
+    font-family: Arial;
+}
+#mydiv{
+    text-align: center;
+    font-size: 25px;
+    color:chocolate;
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    background-image:url("nature.jpg") ;
+    background-size: cover;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}

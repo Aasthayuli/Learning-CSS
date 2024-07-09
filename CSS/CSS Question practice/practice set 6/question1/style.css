@@ -1,0 +1,16 @@
+ul{
+    background-color: rgb(60, 52, 53);
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+a{
+    text-decoration: none;
+    font-family: 'Arial' ;
+    color: white;
+}
+li{
+    /* display: inline; */
+    list-style-type: none;
+}

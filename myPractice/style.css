@@ -1,0 +1,78 @@
+/* General reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Review card styling */
+.review-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Card header styling */
+.card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.reviewer-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviewer-name {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.review-date {
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Card body styling */
+.card-body {
+    margin-bottom: 15px;
+}
+
+.review-text {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Card footer styling */
+.card-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rating {
+    font-size: 1.2em;
+    color: #f39c12;
+}

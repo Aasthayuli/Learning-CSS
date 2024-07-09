@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#myid1{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 25px;
+    padding: 25px;
+    background-color:rgba(0,0,255,0.25);
+}
+#myid2{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 25px;
+    padding: 25px;
+    background-color:rgba(0,0,255,0.5);
+}
+#myid3{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 25px;
+    padding: 25px;
+    background-color:rgba(0,0,255,0.75);
+}

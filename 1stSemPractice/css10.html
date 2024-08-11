@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Overflow</title>
+<style>
+#box1{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 20px;
+    overflow: hidden;
+}
+#box2{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    overflow: scroll;
+    margin: 20px;
+}
+#box3{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    overflow: auto;
+    margin: 20px;
+}
+#box4{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    overflow-x: auto;
+    margin: 20px;
+}
+
+
+
+</style>
+</head>
+<body>
+    <h1>CSS Overflow</h1>
+    <p>It is a problem of content overflowing from the fixed div.</p>
+    <h2><u>Overflow properties</u></h2>
+<ul>
+    <li>overflow(for overflow of image)</li>
+    <li>overflow-x(horizontal overflow of content)</li>
+    <li>overflow-y(vertical overflow of content)</li>
+</ul>
+<h2><u>overflow values</u></h2>
+<ul>
+    <li>hidden(hiding the content)</li>
+    <li>scroll(adding scrollbar to read the content by scrolling)</li>
+    <li>auto(on overflow, automatic scroll bar comes)</li>
+    <li>visible(the overflowed data will be shown as it is)</li>
+</ul>
+<div id="box1">
+    8. Mukesh Ambani
+India's richest man Mukesh Ambani, whose Reliance is acquiring Future Group for $3.4 billion
+India's richest man Mukesh Ambani, whose Reliance is acquiring Future Group for $3.4 billion AFP / CHANDAN KHANNA
+The Founder and Chairman of Reliance Industries Mukesh Ambani has a net worth of $89.4 B as of Jan. 3, 2023. In 2022, Reliance Industries-owned Jio Platforms rolled out a grocery delivery app using WhatsApp's messaging services, a collaboration between Reliance Industries and Meta that enables shoppers to browse JioMart groceries, place and pay for orders within the messaging platform. The partnership, which started in 2020, is in line with Ambani's plans to expand the group's e-commerce platform while building its mobile infrastructure in India.
+</div>
+
+<div id="box2">
+    8. Mukesh Ambani
+India's richest man Mukesh Ambani, whose Reliance is acquiring Future Group for $3.4 billion
+India's richest man Mukesh Ambani, whose Reliance is acquiring Future Group for $3.4 billion AFP / CHANDAN KHANNA
+The Founder and Chairman of Reliance Industries Mukesh Ambani has a net worth of $89.4 B as of Jan. 3, 2023. In 2022, Reliance Industries-owned Jio Platforms rolled out a grocery delivery app using WhatsApp's messaging services, a collaboration between Reliance Industries and Meta that enables shoppers to browse JioMart groceries, place and pay for orders within the messaging platform. The partnership, which started in 2020, is in line with Ambani's plans to expand the group's e-commerce platform while building its mobile infrastructure in India.
+</div>
+
+<div id="box3">
+    8. Mukesh Ambani
+India's richest man Mukesh Ambani, whose Reliance is acquiring Future Group for $3.4 billion
+India's richest man Mukesh Ambani, whose Reliance is acquiring Future Group for $3.4 billion AFP / CHANDAN KHANNA
+The Founder and Chairman of Reliance Industries Mukesh Ambani has a net worth of $89.4 B as of Jan. 3, 2023. In 2022, Reliance Industries-owned Jio Platforms rolled out a grocery delivery app using WhatsApp's messaging services, a collaboration between Reliance Industries and Meta that enables shoppers to browse JioMart groceries, place and pay for orders within the messaging platform. The partnership, which started in 2020, is in line with Ambani's plans to expand the group's e-commerce platform while building its mobile infrastructure in India.
+</div>
+
+<div id="box4">
+    8. Mukesh Ambani
+India's richest man Mukesh Ambani, whose Reliance is acquiring Future Group for $3.4 billion
+India's richest man Mukesh Ambani, whose Reliance is acquiring Future Group for $3.4 billion AFP / CHANDAN KHANNA
+The Founder and Chairman of Reliance Industries Mukesh Ambani has a net worth of $89.4 B as of Jan. 3, 2023. In 2022, Reliance Industries-owned Jio Platforms rolled out a grocery delivery app using WhatsApp's messaging services, a collaboration between Reliance Industries and Meta that enables shoppers to browse JioMart groceries, place and pay for orders within the messaging platform. The partnership, which started in 2020, is in line with Ambani's plans to expand the group's e-commerce platform while building its mobile infrastructure in India.<span style="background-color: rgb(220, 245, 220);">Here, overflow-x is used but a vertical scroll bar appears because the content is overflowing in y direction.</span>
+</div>
+</body>
+</html>

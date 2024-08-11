@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Height & Width</title>
+    <style>
+      #first {
+        border: 1px solid red;
+        width: 700px;
+        min-height: 100px;
+        max-height: 200px;
+        margin: 30px;
+      }
+      /*this is comment writing way in css*/
+
+      #second {
+        border: 1px solid red;
+        height: 80px;
+        min-width: 200px;
+        max-width: 5oopx;
+        margin: 30px;
+      }
+
+      #third {
+        border: 5px solid red;
+        width: fit-content;
+
+        margin: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Height and Width</h1>
+    <div id="first">
+      6. Larry Ellison Larry Ellison 5. Larry Ellison ($48 Billion) REUTERS The
+      CTO and Founder of Oracle welcomes the new year with a net worth of $103.8
+      B. In 2021, Oracle made its biggest acquisition, buying the electronic
+      health records company Cerner for $28.3 billion. Ellison also sat on the
+      board of Tesla until August 2022, and he still owns 15 million shares. In
+      October, he was the biggest dollar gainer, according to Forbes, bouncing
+      back from disappointing earnings in August following layoff announcements.
+      <span style="background-color: aqua"
+        >In this min and max height is used where width is constant. Min height
+        is the fixed height and max height tells upto which height the div will
+        expand.</span
+      >
+    </div>
+
+    <div id="second">
+      6. Larry Ellison Larry Ellison 5. Larry Ellison ($48 Billion) REUTERS The
+      CTO and Founder of Oracle welcomes the new year with a net worth of $103.8
+      B. In 2021, Oracle made its biggest acquisition, buying the electronic
+      health records company Cerner for $28.3 billion. Ellison also sat on the
+      board of Tesla until August 2022, and he still owns 15 million shares. In
+      October, he was the biggest dollar gainer, according to Forbes, bouncing
+      back from disappointing earnings in August following layoff announcements.
+      <span style="background-color: bisque"
+        >In this min and max width is used and height is constant . So, on
+        increase or decrease of content width will increse or decrease upto it's
+        min and max height.</span
+      >
+    </div>
+
+    <div id="third">
+      <img src="larryEllision.jpeg" alt="Larry Ellison image" />
+    </div>
+    <span style="background-color: plum">In the 3rd div width is given . </span>
+  </body>
+</html>

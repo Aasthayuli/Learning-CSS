@@ -1,0 +1,41 @@
+
+   div{
+    display: inline;
+    border: 2px solid black;
+   }
+#first{
+    
+    border: 1px solid salmon;
+    
+   min-height: 300px;
+    margin: 30px;
+    background-color: aqua;
+    padding: 30px;
+    
+    
+
+}
+#second{
+    border: 2px solid orangered;
+    
+    min-height: 300px;
+    background-color: beige;
+    margin: 30px;
+    
+    
+}
+
+#third{
+    border: 1px solid blue;
+   min-height: 300px;
+    
+    margin: 30px;
+    background-color: blueviolet;
+    padding: 30px;
+    
+    
+   
+    
+}
+
+

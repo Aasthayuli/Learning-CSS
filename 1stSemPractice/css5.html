@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Outline</title>
+<style>
+    h1{
+        border: 3px solid black;
+        outline: 2px solid green ;
+        outline-offset:4px ;
+    }
+    p{
+        border: 3px solid blue;
+        outline: 2px solid red;
+        outline-offset: 5px;
+    }
+
+    #first{
+        border: 3px solid blue;
+        outline: 2px solid red;
+        outline-offset: 5px;
+    }
+    
+</style>
+</head>
+<body>
+    <h1> css outline is for surrounding the particular in a box like this heading in green colour and border is black.</h1>
+    <h2><u>CSS Outline Properties</u></h2>
+<P>
+    <ul>
+        <li>outline-width</li>
+        <li>outline-style</li>
+        <li>outline-color</li>
+        <li>outline-offset</li>
+    </ul>
+    offset gives gap between border and outline.
+    The green colour box is showing the outline of heading.
+    In paragraphs(in p tag),i.e., borders cannot be given as a box.They will be shown like just as a line at start & end of the paragraph and outline works as same! The next para. about outline style is not written within paragraph tag. That's why it is not getting the the blue border and red outline but we can outline in div tag as shown below.
+</P>
+<div id="first">
+    <h2><u>Outline Style</u></h2>
+    <ul>
+        <li>solid</li>
+        <li>Dotted</li>
+        <li>dashed</li>
+        <li>double</li>
+        <li>groove</li>
+        <li>ridge</li>
+        <li>inset</li>
+        <li>outset</li>
+        <li>none</li>
+        <li>mix</li>
+    </ul>
+
+</div>
+
+    
+
+<!--In outline, 2px is width, solid is outline style, green is outline colour.offset gives gap between border and outline.-->
+<!--shorthand of ouline:      outline: width style colour;
+                              outline-offset: width or gap what u want between border and outline;  -->
+</body>
+</html>
